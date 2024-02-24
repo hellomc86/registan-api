@@ -8,7 +8,8 @@ const article = new Schema(
     titleTwo: String, // String is shorthand for {type: String}
     genre: String,
     aticleBody: [
-      {       
+      {  
+        _id: false,     
         imageOne: String,
         subTitle: String,
         content: String,       
