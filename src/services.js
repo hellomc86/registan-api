@@ -1,7 +1,7 @@
 const queryInstance = require('./queryClass');
 const schema = require('./schema');
 
-const STATUS = require('./statusConst');
+
 
 const date = () => new Date();
 
